@@ -12,7 +12,7 @@ node{
         mavenCMD = "${mavenHome}/bin/mvn"
         docker = tool name: 'docker' , type: 'org.jenkinsci.plugins.docker.commons.tools.DockerTool'
         dockerCMD = "${docker}/bin/docker"
-        tagName="3.0"
+        tagName="latest"
     }
     
     stage('git code checkout'){
